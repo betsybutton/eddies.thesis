@@ -1,0 +1,54 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "eddiesthesis",
+          "appId": "1:262906259636:android:6bcd8cf0931611c29a0fe1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "eddiesthesis",
+          "appId": "1:262906259636:ios:ed4294c7a4900c1d9a0fe1",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "eddiesthesis",
+          "appId": "1:262906259636:ios:ed4294c7a4900c1d9a0fe1",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "eddiesthesis",
+          "configurations": {
+            "android": "1:262906259636:android:6bcd8cf0931611c29a0fe1",
+            "ios": "1:262906259636:ios:ed4294c7a4900c1d9a0fe1",
+            "macos": "1:262906259636:ios:ed4294c7a4900c1d9a0fe1",
+            "web": "1:262906259636:web:1c05db9045126f749a0fe1"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
